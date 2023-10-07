@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:alignmentMode="alignMargins"
+    android:columnCount="2"
+    android:padding="16dp"
+    android:rowCount="2">
+
+
+    <LinearLayout
+        android:id="@+id/option1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_menu"
+        android:gravity="center_vertical|center_horizontal"> <!-- Center both vertically and horizontally -->
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mascot_1"
+            android:contentDescription="Image Description" />
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="What is kidney?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/option2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_menu"
+        android:gravity="center_vertical|center_horizontal"> <!-- Center both vertically and horizontally -->
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mascot_4"
+            android:contentDescription="Image Description" />
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Where is kidney?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/option3Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_menu"
+        android:gravity="center_vertical|center_horizontal"> <!-- Center both vertically and horizontally -->
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mascot_3"
+            android:contentDescription="Image Description" />
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Why do we have kidney?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/option4Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_menu"
+        android:gravity="center_vertical|center_horizontal"> <!-- Center both vertically and horizontally -->
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mascot_5"
+            android:contentDescription="Image Description" />
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="How does kidney work?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+</GridLayout>
